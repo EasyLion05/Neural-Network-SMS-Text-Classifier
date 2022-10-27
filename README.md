@@ -9,7 +9,7 @@ You can use the following helpful lesson on RNN and TextVectorization to resolve
 test_dataset = test_dataset.batch(BATCH_SIZE).prefetch(tf.data.AUTOTUNE) )
 
 # Problem description
-Copied and modified from this Google Colab
+Copied and modified from Free code camp 
 
 In this challenge, you need to create a machine learning model that will classify SMS messages as either "ham" or "spam". A "ham" message is a normal message sent by a friend. A "spam" message is an advertisement, or a message sent by a company.
 
